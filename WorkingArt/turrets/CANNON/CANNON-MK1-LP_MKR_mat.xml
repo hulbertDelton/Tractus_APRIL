@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<catalog>
+	<Version app="modo" build="507779" xml_file_format="1">1212</Version>
+	<useRootPath>0</useRootPath>
+	<PtagAsID>0</PtagAsID>
+	<Material ID="Unreal_Material" ptag="CANNON" type="unrealShader">
+		<property name="Emissive Color" value="0.0, 0.0, 0.0">
+			<texture fileIndex="1" filename="/Users/mkreice/tractus/WorkingArt/turrets/CANNON/M_CANNON-EM.png" name="M_CANNON-EM" uvindex="0" uvname="CANNON" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Specular" value="0.5"/>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Clearcoat Roughness" value="0.0"/>
+		<property name="Base Color" value="0.6000000238418579, 0.6000000238418579, 0.6000000238418579">
+			<texture fileIndex="0" filename="/Users/mkreice/tractus/WorkingArt/turrets/CANNON/M_CANNON-CLR.png" name="M_CANNON-CLR" uvindex="0" uvname="CANNON" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Clearcoat Amount" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Subsurface Color" value="0.0"/>
+		<property name="Roughness" value="0.5"/>
+		<property name="Metallic" value="0.0">
+			<texture fileIndex="2" filename="/Users/mkreice/tractus/WorkingArt/turrets/CANNON/M_CANNON-ML.png" name="M_CANNON-ML" uvindex="0" uvname="CANNON" wrapU="1.0" wrapV="1.0"/>
+		</property>
+	</Material>
+	<ImageFiles>
+		<file color_correction="sRGB" filename="/Users/mkreice/tractus/WorkingArt/turrets/CANNON/M_CANNON-CLR.png"/>
+		<file color_correction="sRGB" filename="/Users/mkreice/tractus/WorkingArt/turrets/CANNON/M_CANNON-EM.png"/>
+		<file color_correction="sRGB" filename="/Users/mkreice/tractus/WorkingArt/turrets/CANNON/M_CANNON-ML.png"/>
+	</ImageFiles>
+</catalog>

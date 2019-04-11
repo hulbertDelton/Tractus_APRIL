@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<catalog>
+	<Version app="modo" build="131034" xml_file_format="1">1022</Version>
+	<useRootPath>1</useRootPath>
+	<PtagAsID>0</PtagAsID>
+	<RootPath>/Users/max/GitHub/tractus/WorkingArt/turrets/AEGIS/</RootPath>
+	<Material ID="Unreal_Material" ptag="AEGIS" type="unrealShader">
+		<property name="Emissive Color" value="0.0, 0.0, 0.0">
+			<texture fileIndex="1" filename="M_AEGIS-EM.png" name="M_AEGIS-EM" uvindex="0" uvname="AEGIS" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Specular" value="0.5"/>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Clearcoat Roughness" value="0.0"/>
+		<property name="Base Color" value="0.08203534781932831, 0.19452711939811707, 0.07303204387426376">
+			<texture fileIndex="0" filename="M_AEGIS-CLR.png" name="M_AEGIS-CLR" uvindex="0" uvname="AEGIS" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Clearcoat Amount" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Subsurface Color" value="0.0"/>
+		<property name="Roughness" value="0.5"/>
+		<property name="Metallic" value="0.0">
+			<texture fileIndex="2" filename="M_AEGIS-MTL.png" name="M_AEGIS-MTL" uvindex="0" uvname="AEGIS" wrapU="1.0" wrapV="1.0"/>
+		</property>
+	</Material>
+	<ImageFiles>
+		<file color_correction="sRGB" filename="M_AEGIS-CLR.png"/>
+		<file color_correction="sRGB" filename="M_AEGIS-EM.png"/>
+		<file color_correction="sRGB" filename="M_AEGIS-MTL.png"/>
+	</ImageFiles>
+</catalog>

@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<catalog>
+	<Version app="modo" build="507779" xml_file_format="1">1212</Version>
+	<useRootPath>1</useRootPath>
+	<PtagAsID>1</PtagAsID>
+	<RootPath>/Users/mkreice/tractus/WorkingArt/turrets/SPRAY/</RootPath>
+	<Material ID="Unreal_Material" ptag="SPRAY" type="unrealShader">
+		<property name="Emissive Color" value="0.0, 0.0, 0.0">
+			<texture fileIndex="1" filename="M_SPRAY-EM.png" name="M_SPRAY-EM" uvindex="0" uvname="FLAK" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Specular" value="0.5"/>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Clearcoat Roughness" value="0.0"/>
+		<property name="Base Color" value="0.5394999980926514, 0.8227999806404114, 0.8148000240325928">
+			<texture fileIndex="0" filename="M_SPRAY-CLR.png" name="M_SPRAY-CLR" uvindex="0" uvname="FLAK" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Clearcoat Amount" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Subsurface Color" value="0.0"/>
+		<property name="Roughness" value="0.5"/>
+		<property name="Metallic" value="0.0">
+			<texture fileIndex="2" filename="M_SPRAY-MTL.png" name="M_SPRAY-MTL" uvindex="0" uvname="FLAK" wrapU="1.0" wrapV="1.0"/>
+		</property>
+	</Material>
+	<ImageFiles>
+		<file color_correction="sRGB" filename="M_SPRAY-CLR.png"/>
+		<file color_correction="sRGB" filename="M_SPRAY-EM.png"/>
+		<file color_correction="sRGB" filename="M_SPRAY-MTL.png"/>
+	</ImageFiles>
+</catalog>

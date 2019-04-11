@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<catalog>
+	<Version app="modo" build="131034" xml_file_format="1">1022</Version>
+	<useRootPath>1</useRootPath>
+	<PtagAsID>0</PtagAsID>
+	<RootPath>/Users/max/GitHub/tractus/WorkingArt/turrets/COIL/</RootPath>
+	<Material ID="Unreal_Material" ptag="COIL" type="unrealShader">
+		<property name="Emissive Color" value="0.0, 0.0, 0.0">
+			<texture fileIndex="2" filename="M_COIL-EM.png" name="M_COIL-EM" uvindex="0" uvname="COIL" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Specular" value="0.5"/>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Clearcoat Roughness" value="0.0"/>
+		<property name="Base Color" value="0.0, 0.0, 0.0">
+			<texture fileIndex="1" filename="M_COIL-CLR.png" name="M_COIL-CLR" uvindex="0" uvname="COIL" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Clearcoat Amount" value="0.0"/>
+		<property name="Opacity" value="1.0">
+			<texture fileIndex="0" filename="M_COIL-OP.png" name="M_COIL-OP" uvindex="0" uvname="COIL" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Subsurface Color" value="0.0"/>
+		<property name="Roughness" value="0.5"/>
+		<property name="Metallic" value="0.0">
+			<texture fileIndex="3" filename="M_COIL-MTL.png" name="M_COIL-MTL" uvindex="0" uvname="COIL" wrapU="1.0" wrapV="1.0"/>
+		</property>
+	</Material>
+	<ImageFiles>
+		<file color_correction="sRGB" filename="M_COIL-OP.png"/>
+		<file color_correction="sRGB" filename="M_COIL-CLR.png"/>
+		<file color_correction="sRGB" filename="M_COIL-EM.png"/>
+		<file color_correction="sRGB" filename="M_COIL-MTL.png"/>
+	</ImageFiles>
+</catalog>
